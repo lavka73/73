@@ -1,0 +1,255 @@
+body {
+  background: linear-gradient(270deg, #90ff97, #90f2ff);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 14s ease infinite;
+  -moz-animation: gradient 14s ease infinite;
+  -o-animation: gradient 14s ease infinite;
+  animation: gradient 14s ease infinite;
+  display: -webkit-flex;
+  display: -ms-flex;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-o-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .avatar {
+  margin-top: 15px;
+  width: 15%;
+}
+.container .avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.container h2 {
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.container h2 a {
+  text-decoration: none;
+  color: #1a2d39;
+}
+.container .links {
+  margin: 5px 0 5px 0;
+  width: 60%;
+  height: 55px;
+  background-color: #7794f8;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.container .links p {
+  font-size: 25px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #fff;
+}
+.container .links:hover {
+  background-color: #5f81f7;
+}
+.container .text {
+  margin: 5px 0 5px 0;
+  width: 90%;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  text-decoration: none;
+  border-radius: 25px;
+}
+.container .text p {
+  font-size: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #fff;
+}
+.container .text .black {
+  color: #000;
+}
+.container .text .interes {
+  text-align: center;
+}
+.container .video {
+  width: 90%;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+.container .video iframe {
+  width: 100%;
+}
+.container .social {
+  margin: 5px 0 5px 0;
+  width: 90%;
+  height: 55px;
+  background-color: #55cd6c;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.container .social p {
+  font-size: 25px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #fff;
+}
+.container .social .logo {
+  font-size: 50px;
+  color: #fff;
+  margin-right: 10px;
+}
+.container .vk {
+  background-color: #4d76a1;
+}
+.container .vk:hover {
+  background-color: #6a90b8;
+}
+.container .telegram {
+  background-color: #61a8de;
+}
+.container .telegram:hover {
+  background-color: #3791d5;
+}
+.container .what {
+  background-color: #55cd6c;
+}
+.container .what:hover {
+  background-color: #36b94f;
+}
+.container .viber {
+  background-color: #7d3daf;
+}
+.container .viber:hover {
+  background-color: #623089;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    width: 70%;
+  }
+  .container .avatar {
+    margin: 0;
+    width: 20%;
+  }
+  .container .links {
+    width: 90%;
+  }
+  .container .links .asor {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  .container .avatar {
+    margin: 0;
+    width: 25%;
+  }
+  .container .links {
+    width: 90%;
+  }
+}
+@media (max-width: 381px) {
+  .container .links p {
+    font-size: 19px;
+  }
+  .container .links .asor {
+    font-size: 14px;
+  }
+  .container .social .logo {
+    font-size: 20px;
+  }
+  .container .social p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 425px) {
+  .container {
+    width: 90%;
+  }
+  .container .avatar {
+    margin: 0;
+    width: 40%;
+  }
+  .container .links {
+    width: 100%;
+  }
+  .container .text p {
+    font-size: 16px;
+  }
+  .container .social .logo {
+    font-size: 20px;
+  }
+  .container .social p {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

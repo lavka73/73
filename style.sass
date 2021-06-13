@@ -1,0 +1,221 @@
+
+body
+  background: linear-gradient(270deg, #90ff97, #90f2ff)
+  background-size: 400% 400%
+  -webkit-animation: gradient 14s ease infinite
+  -moz-animation: gradient 14s ease infinite
+  -o-animation: gradient 14s ease infinite
+  animation: gradient 14s ease infinite
+  display: -webkit-flex
+  display: -ms-flex
+@-webkit-keyframes gradient
+  0%
+    background-position: 0% 50%
+
+  50%
+    background-position: 100% 50%
+
+  100%
+    background-position: 0% 50%
+
+@-moz-keyframes gradient
+  0%
+    background-position: 0% 50%
+
+  50%
+    background-position: 100% 50%
+
+  100%
+    background-position: 0% 50%
+
+@-o-keyframes gradient
+  0%
+    background-position: 0% 50%
+
+  50%
+    background-position: 100% 50%
+
+  100%
+    background-position: 0% 50%
+
+@keyframes gradient
+  0%
+    background-position: 0% 50%
+
+  50%
+    background-position: 100% 50%
+
+  100%
+    background-position: 0% 50%
+
+.container
+  width: 60%
+  margin: 0 auto
+  // background-color: black
+  display: -webkit-flex
+  display: -ms-flex
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  .avatar
+    margin-top: 15px
+    width: 15%
+    img
+      width: 100%
+      height: 100%
+      border-radius: 50%
+  h2
+    font-size: 25px
+    font-family: sans-serif
+    a
+      text-decoration: none
+      color: #1a2d39
+  .links
+    margin: 5px 0 5px 0
+    width: 60%
+    height: 55px
+    background-color: #7794f8
+    display: -webkit-flex
+    display: -ms-flex
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: all 0.2s
+    text-decoration: none
+    border-radius: 20px
+    p
+      font-size: 25px
+      text-decoration: none
+      font-family: sans-serif
+      color: #fff
+
+
+  .links:hover
+    background-color: darken(#7794f8, 5%)
+  .text
+    margin: 5px 0 5px 0
+    width: 90%
+    // height: 75px
+    display: -webkit-flex
+    display: -ms-flex
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: all 0.2s
+    text-decoration: none
+    border-radius: 25px
+    p
+      font-size: 20px
+      text-decoration: none
+      font-family: sans-serif
+      color: #fff
+    .black
+      color: #000
+    .interes
+      text-align: center
+  .video
+    width: 90%
+    display: -webkit-flex
+    display: -ms-flex
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: all 0.2s
+    iframe
+      width: 100%
+
+  .social
+    margin: 5px 0 5px 0
+    width: 90%
+    height: 55px
+    background-color: #55cd6c
+    display: -webkit-flex
+    display: -ms-flex
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: all 0.2s
+    text-decoration: none
+    border-radius: 20px
+    p
+      font-size: 25px
+      text-decoration: none
+      font-family: sans-serif
+      color: #fff
+    .logo
+      font-size: 50px
+      color: #fff
+      margin-right: 10px
+
+  .vk
+    background-color: #4d76a1
+    &:hover
+      background-color: lighten(#4d76a1, 10%)
+
+  .telegram
+    background-color: #61a8de
+    &:hover
+      background-color: darken(#61a8de, 10%)
+
+  .what
+    background-color: #55cd6c
+    &:hover
+      background-color: darken(#55cd6c, 10%)
+
+  .viber
+    background-color: #7d3daf
+    &:hover
+      background-color: darken(#7d3daf, 10%)
+
+
+@media (max-width: 1280px)
+  .container
+    width: 70%
+    .avatar
+      margin: 0
+      width: 20%
+    .links
+      width: 90%
+      .asor
+        font-size: 16px
+
+
+@media (max-width: 768px)
+  .container
+    width: 90%
+    .avatar
+      margin: 0
+      width: 25%
+    .links
+      width: 90%
+
+
+@media (max-width: 381px)
+  .container
+    .links
+      p
+        font-size: 19px
+      .asor
+        font-size: 14px
+    .social
+      .logo
+        font-size: 20px
+      p
+        font-size: 14px
+@media (max-width: 425px)
+  .container
+    width: 90%
+    .avatar
+      margin: 0
+      width: 40%
+    .links
+      width: 100%
+    .text
+      p
+        font-size: 16px
+    .social
+      .logo
+        font-size: 20px
+      p
+        font-size: 14px
