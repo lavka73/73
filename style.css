@@ -95,7 +95,7 @@ body {
   border-radius: 20px;
 }
 .container .links p {
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
   font-family: sans-serif;
   color: #fff;
@@ -105,7 +105,7 @@ body {
 }
 .container .text {
   margin: 5px 0 5px 0;
-  width: 90%;
+  width: 60%;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
@@ -128,7 +128,7 @@ body {
   text-align: center;
 }
 .container .video {
-  width: 90%;
+  width: 60%;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
@@ -141,7 +141,7 @@ body {
 }
 .container .social {
   margin: 5px 0 5px 0;
-  width: 90%;
+  width: 60%;
   height: 55px;
   background-color: #55cd6c;
   display: -webkit-flex;
@@ -188,6 +188,13 @@ body {
 .container .viber:hover {
   background-color: #623089;
 }
+.container .inst {
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
 
 @media (max-width: 1280px) {
   .container {
@@ -213,6 +220,15 @@ body {
     width: 25%;
   }
   .container .links {
+    width: 90%;
+  }
+  .container .text {
+    width: 90%;
+  }
+  .container .social {
+    width: 90%;
+  }
+  .container .video {
     width: 90%;
   }
 }
